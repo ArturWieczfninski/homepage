@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+.navigation__listone {
+  color: crimson;
+  margin: auto;
+  background-color: #eee;
+  text-align: center;
+  padding: auto;
+}
+
+.navigation__link {
+  margin: auto;
+  background-color: #eee;
+  text-align: center;
+  padding: auto;
+}

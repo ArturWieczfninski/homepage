@@ -1,0 +1,51 @@
+  html {
+    box-sizing: border-box;
+  }
+
+  *, ::after, ::before {
+    box-sizing: inherit;
+  }
+
+  .header {
+    max-width: 200px;
+    margin: 20px auto;
+  }
+
+  .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .body {
+    color: black;
+    background: white;
+    margin: auto;
+    max-width: 1000px;
+  }
+
+  .blackcolor {
+    background-color: grey;
+  }
+
+  .element {
+    max-width: 500px;
+    background-color: gray;
+    color: white;
+    margin: auto;
+    padding: 6px;
+    line-height: 1.5;
+
+  }
+
+  .button {
+    color: black;
+    background-color: white;
+    padding: 20px 20px;
+    font-size: 25px;
+  }
+
+  .dark {
+    color: white;
+    background-color: black;
+  }

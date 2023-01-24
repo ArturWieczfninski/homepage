@@ -1,0 +1,12 @@
+html {
+    box-sizing: border-box;
+  }
+
+  *, ::after, ::before {
+    box-sizing: inherit;
+  }
+.aside__link {
+    color: crimson;
+    text-decoration: none;
+
+  }

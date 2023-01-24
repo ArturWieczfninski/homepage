@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.article {
+    max-width: 800 px;
+    padding: 20px;
+    box-shadow: 2px 2px 8px #ccc;
+    margin: 20px auto;
+}
+
+.article__header {
+    border: 5px solid;
+    border-color: rgb(215, 215, 250);
+    text-align: center;
+    margin: 20px auto
+}
