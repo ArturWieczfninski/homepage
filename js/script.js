@@ -6,5 +6,17 @@ let themeName = document.querySelector(".themeName");
 
 button.addEventListener("click", () => {
     body.classList.toggle("dark");
-    themeName.innerText = body.classList.contains ("dark") ? "jasny" : "ciemny";
+    themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
 });
+
+let myNumber = 4;
+
+let double = number => {
+    console.log("myNumber wynosi " + myNumber)
+    return number * 0.1;
+};
+
+
+
+console.log(double(myNumber));
+
