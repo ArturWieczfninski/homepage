@@ -15,7 +15,7 @@
     <link href="css/aside.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" >
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,100&display=swap" rel="stylesheet">
@@ -27,19 +27,21 @@
 <body class="body">
     <header class="header"> O pasje należy dbać, rozpieszczać ją i szanować a przyniesie satysfakcję.</header>
     <img class="image" width=400 height=200 src="https://cdn.pixabay.com/photo/2016/02/26/06/05/lens-1223583__340.jpg"
-        alt="2093d506727745321af6b66416d5733e.jpeg" >
+        alt="2093d506727745321af6b66416d5733e.jpeg">
     <hr>
-    <nav class="js-navigation">
-        <a class="navigation__link" href="Moja_historia"> Moja historia </a>
-        <a class="navigation__link" href="Moje_pasje">Moje pasje</a>
-        <a class="navigation__link" href="O_programowaniu">O programowaniu</a>
-        <a class="navigation__link" href="Zestawienie_obiektywów">Zestawienie obiektywów</a>
-        <a class="navigation__link" href="Przydatne_linki">Przydatne linki</a>
+    <nav class="navigation js-navigation">
+        <ul>
+           <li><a class="navigation__link" href="#moja-historia"> Moja historia </a></li>
+           <li><a class="navigation__link" href="#moje-pasje">Moje pasje</a></li>
+           <li><a class="navigation__link" href="#o-programowaniu">O programowaniu</a></li>
+           <li><a class="navigation__link" href="#zestawienie-obiektywów">Zestawienie obiektywów</a></li>
+           <li><a class="navigation__link" href="#przydatne-linki">Przydatne linki</a></li>
+        </ul>
     </nav>
     <br>
     <main>
-        <article class="js-article">
-            <h2 id="Moja_historia" class="article__header"> Bądź sobą najlepiej jak potrafisz!</h2>
+        <article class="article js-article">
+            <h2 id="moja-historia" class="article__header"> Bądź sobą najlepiej jak potrafisz!</h2>
             <div class="article__element">
                 <p class="article__paragraf">
                     Witam wszystkich czytających moją stronę internetową. Nazywam się Artur i od kilku lat pracuję jako
@@ -54,7 +56,7 @@
                     i że te dobro zawsze wraca.
                     W przyszłości chciałbym równiez nauczyć się tworzyć aplikację, które będa pomagać w codziennym
                     funkcjonowaniu wszystkim ludziom.
-                <h3 id="Moje_pasje" class="article__header"> Moje pasje</h3>
+                <h3 id="moje-pasje" class="article__header"> Moje pasje</h3>
                 W wolnych chwilach staram się realizować
                 swoje
                 pasje jakim jest fotografia,
@@ -75,7 +77,7 @@
                 wazniejszych
                 czynności.
                 Tyle w skrócie o mnie.
-                <h4 id="O_programowaniu"> Dlaczego ucze się programowania</h4>
+                <h4 id="o-programowaniu"> Dlaczego ucze się programowania</h4>
                 <p> Zapewne każda osoba ucząca się programowania ma swój cel. Moim przedewszystkim jest pogłębianie
                     wiedzy.
                     Jak również względy finansowe które pozwolą mi realizować coraz to nowe wyzwania jakie stawiam sobie
@@ -89,32 +91,32 @@
                     idąc pewną ścieżką uznałem że programowanie będzie super początkiem zmiany na lepsze.
                 </p>
             </div>
-            <h5 id="Zestawienie_obiektywów">
+            <h5 id="zestawienie-obiektywów">
                 Zestawienie najpopularniejszychobiektywów do aparatów fotograficznych
             </h5>
-            <table class="js-table">
+            <table class="table js-table">
                 <caption>Zestawienie obiektywów</caption>
                 <tr>
-                    <td class="table__Header"> </td>
-                    <th class="table__Cell" scope="col">Nikon Nikkor 35 mm f/1,8G A fS DX </th>
-                    <th class="table__Cell" scope="col">Canon EF-S 18-135mm f/3,5-5,6 IS USM Nano</th>
-                    <th class="table__Cell" scope="col">Nikon Nokkor AF-P DX 70-300mm F/4,5-6,3G ED VR</th>
+                    <td class="table__header"> </td>
+                    <th class="table__cell" scope="col">Nikon Nikkor 35 mm f/1,8G A fS DX </th>
+                    <th class="table__cell" scope="col">Canon EF-S 18-135mm f/3,5-5,6 IS USM Nano</th>
+                    <th class="table__cell" scope="col">Nikon Nokkor AF-P DX 70-300mm F/4,5-6,3G ED VR</th>
                 </tr>
                 <tr>
-                    <th class="table__Header" scope="row">Zalety</th>
-                    <td class="table__Cell">Przysłona f/1.8 gwarantuje dobrej jakości zdjęcia nawet przy słabym
+                    <th class="table__header" scope="row">Zalety</th>
+                    <td class="table__cell">Przysłona f/1.8 gwarantuje dobrej jakości zdjęcia nawet przy słabym
                         oświetleniu.
                         Jest to obiektyw
                         stałoogniskowy, więc łatwiej uzyskać nim ładny efekt rozmazania tła. Silnik ultradźwiękowy SWM
                         zapewnia
                         cichą i efektywną pracę. Obiektyw ma lekką, a jednocześnie wytrzymałą konstrukcję.</td>
-                    <td class="table__Cell">Obiektyw ma system stabilizacji obrazu, który przydaje się zarówno
+                    <td class="table__cell">Obiektyw ma system stabilizacji obrazu, który przydaje się zarówno
                         podczas
                         robienia zdjęć, jak i
                         nagrywania filmów. Autofokus jest szybko i dokładnie ustawiany, więc zrobienie dobrej jakości
                         zdjęcia
                         nie zajmuje dużo czasu. Silnik Nano USM to gwarancja cichej pracy.</td>
-                    <td class="table__Cell">Sprzęt ma szeroki zakres ogniskowych od 70 do 300 m, co daje możliwość
+                    <td class="table__cell">Sprzęt ma szeroki zakres ogniskowych od 70 do 300 m, co daje możliwość
                         zmiennego
                         kadrowania. Silnik
                         krokowy Nikon wyróżnia cicha praca, więc mamy pewność, że w trakcie nagrywania filmów nie
@@ -122,20 +124,20 @@
                         zarejestrowane żadne nieprzyjemne dźwięki.</td>
                 </tr>
                 <tr>
-                    <th class="table__Header" scope="row">Wady</th>
-                    <td class="table__Cell"> W nielicznych opiniach można przeczytać, że automatyczne wyostrzenie
+                    <th class="table__header" scope="row">Wady</th>
+                    <td class="table__cell"> W nielicznych opiniach można przeczytać, że automatyczne wyostrzenie
                         obrazu nie
                         przebiega tak sprawnie,
                         jakby można było tego oczekiwać. Z tego też powodu dla wielu osób lepszym rozwiązaniem jest
                         skorzystanie
                         z trybu manualnego.</td>
-                    <td class="table__Cell">Użytkownicy sugerują, że obudowa mogłaby być wykonana z nieco lepszego
+                    <td class="table__cell">Użytkownicy sugerują, że obudowa mogłaby być wykonana z nieco lepszego
                         materiału.
                         Dzięki temu znajdujące
                         się wewnątrz elementy byłby lepiej chronione. Po zewnętrznej stronie sprzętu mogą pojawiać się
                         drobne
                         zarysowania.</td>
-                    <td class="table__Cell"> Obiektyw idealnie sprawdza się przy dobrym świetle, jednak radzi sobie
+                    <td class="table__cell"> Obiektyw idealnie sprawdza się przy dobrym świetle, jednak radzi sobie
                         nieco
                         gorzej, kiedy warunki
                         oświetleniowe są gorsze. Może stanowić to problem w zależności od tego, co czego najczęściej
@@ -143,20 +145,20 @@
                         swojego aparatu.</td>
                 </tr>
                 <tr>
-                    <th class="table__Header" scope="row">Podsumowanie</th>
-                    <td class="table__Cell"> Sprzęt spełni oczekiwania amatora, a także bardziej zaawansowanych
+                    <th class="table__header" scope="row">Podsumowanie</th>
+                    <td class="table__cell"> Sprzęt spełni oczekiwania amatora, a także bardziej zaawansowanych
                         fotografów.
                         Jest to obiektyw w
                         przystępnej cenie. Kontrast fotografii jest zadowalający, więc w wielu przypadkach zbędna
                         okazuje się
                         obróbka zdjęcia.</td>
-                    <td class="table__Cell"> Model jest polecany przez fotografów o różnym poziomie zaawansowania,
+                    <td class="table__cell"> Model jest polecany przez fotografów o różnym poziomie zaawansowania,
                         także do
                         robienia zdjęć na co
                         dzień. Przysłona minimalna wynosi f/3.5-5.6. Obiektyw waży 515 g, a średnica filtra jest równa
                         67 mm.
                     </td>
-                    <td class="table__Cell">Obiektyw pozwala na robienie zdjęć w wysokiej rozdzielczości.
+                    <td class="table__cell">Obiektyw pozwala na robienie zdjęć w wysokiej rozdzielczości.
                         Przełączanie między
                         manualnym ustawianiem
                         ostrości a autofokusem przebiega szybko i bez problemów. W zestawie znajduje się przednia i
@@ -168,16 +170,16 @@
             <button class="button"> Włącz <span class="themeName"> ciemny</span> motyw</button>
 
         </article>
-        <aside class="js-aside">
+        <aside class="aside js-aside">
             <h1 id="Przydatne_linki"> Przydatne linki - masz ochotę, przeczytaj</h1>
-                <a class="aside__link" rel="noreferrer noopener" target="_blank"
-                    href="https://www.fotopolis.pl/opinie/analizy/36083-uzytkownicy-wiedza-najlepiej-oto-najchetniej-kupowane-aparaty-i-obiektywy-w-2022-roku">
-                    Zestawienie napopularniejszych aparatów fotograficznych pełnoklatkowych 2022 r.(link otwiera się w
-                    nowej karcie)
-                </a>
+            <a class="aside__link" rel="noreferrer noopener" target="_blank"
+                href="https://www.fotopolis.pl/opinie/analizy/36083-uzytkownicy-wiedza-najlepiej-oto-najchetniej-kupowane-aparaty-i-obiektywy-w-2022-roku">
+                Zestawienie napopularniejszych aparatów fotograficznych pełnoklatkowych 2022 r.(link otwiera się w
+                nowej karcie)
+            </a>
         </aside>
     </main>
-    <footer class="js-footer"> Moja pierwsza strona internetowa</footer>
+    <footer class="footer js-footer"> Moja pierwsza strona internetowa</footer>
 </body>
 
 </html>
